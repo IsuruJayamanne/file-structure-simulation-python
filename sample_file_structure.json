@@ -1,17 +1,28 @@
 {
-    "Project": {
-        "src": {
-            "__init__.py": null,
-            "main.py": null,
-            "module1.py": null
+    "Root": {
+        "Folder1": {
+            "file1": null,
+            "file2": null,
+            "file3": null
         },
-        "docs": {
-            "file1.txt": null
+        "Folder2": {
+            "file1": null
         },
-        "tests": {
-            "__init__.py": null,
-            "test_module1.py": null
+        "Folder3": {
+            "file1": null,
+            "file2": null,
+            "Folder1":{
+                "file1":null
+            }
         },
-        "README.md": null
+        "Folder4":{
+            "Folder1":{
+                "file1":null,
+                "Folder1":{
+
+                }
+            }
+        },
+        "File1":null
     }
 }
