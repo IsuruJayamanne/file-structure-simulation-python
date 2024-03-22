@@ -4,6 +4,7 @@ Reads a JSON file of a file structure and shows in a UI. Simulates file selectio
 
 - Uses Tkinter library for GUI
 - Loads JSON file as input
+- Simulate file select from mouse with attach and detach
 
 ## Instructions
 
