@@ -11,13 +11,22 @@ def build_tree(parent, tree_data, parent_tree=''):
         if isinstance(children, dict):
             build_tree(parent, children, item_id)
 
+def get_item_full_path(item_id):
+    # generate the full path of an item from its ID
+    parent_id = tree_view.parent(item_id)
+    if parent_id == '':
+        return tree_view.item(item_id, 'text')
+    else:
+        return get_item_full_path(parent_id) + "/" + tree_view.item(item_id, 'text')
+
 def on_item_click(event):
     # handle item clicks
     item_id = tree_view.identify_row(event.y)
     if item_id and not tree_view.tag_has("clicked", item_id):
         item_text = tree_view.item(item_id, 'text')
+        item_path = get_item_full_path(item_id)
         # add clicked item to a list
-        clicked_files.append(item_text) 
+        clicked_files.append(item_path) 
         # tag the item as clicked to handle background color change
         tree_view.item(item_id, tags=("clicked",))  
 
