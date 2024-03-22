@@ -1,3 +1,6 @@
+# Author: Isuru Jayamanne
+# Description: This script Reads a JSON file of a file structure and shows in a UI and Simulates file selection.
+
 from services.gui import display_folder_structure
 from services.data import get_folder_structure
 
