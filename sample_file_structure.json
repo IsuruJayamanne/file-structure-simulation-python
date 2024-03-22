@@ -1,0 +1,17 @@
+{
+    "Project": {
+        "src": {
+            "__init__.py": null,
+            "main.py": null,
+            "module1.py": null
+        },
+        "docs": {
+            "file1.txt": null
+        },
+        "tests": {
+            "__init__.py": null,
+            "test_module1.py": null
+        },
+        "README.md": null
+    }
+}
