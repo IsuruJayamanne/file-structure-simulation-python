@@ -51,7 +51,8 @@ Run from terminal
 python3 main.py
 ```
 
-Opens a UI in a new window
+- Opens a UI in a new window
+- Close the window to exit
 
 ### Notes:
 
