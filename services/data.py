@@ -48,7 +48,6 @@ def get_folder_structure(filename='sample_file_structure.json'):
                                 }
                             },
                             'file_string1':null
-                            }
                         },
                         'folder_dict_string2':{
                         }
