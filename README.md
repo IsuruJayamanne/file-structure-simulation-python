@@ -13,6 +13,8 @@ Reads a JSON file of a file structure and shows in a UI. Simulates file selectio
 
 ### Configuration
 
+#### Sample JSON file is provided and can be run with it. Follow the below instructions to input a custom JSON file if required.
+
 Save the JSON file in the project root.
 
 Update the JSON file name in ["main.py"](main.py)
